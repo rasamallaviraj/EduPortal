@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register / Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">EduPortal</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="register.html" class="active">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="auth-section">
+        <div class="auth-container">
+            <h2 id="formTitle">Register for EduPortal</h2>
+            <form id="authForm" class="form-grid">
+                <div class="form-group" id="nameGroup">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                    <small class="error-msg" id="nameError"></small>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                    <small class="error-msg" id="emailError"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Create a password">
+                    <small class="error-msg" id="passwordError"></small>
+                </div>
+
+                <div class="form-group" id="confirmPasswordGroup">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" placeholder="Confirm your password">
+                    <small class="error-msg" id="confirmPasswordError"></small>
+                </div>
+
+                <button type="submit" class="btn btn-full" id="submitBtn">Submit</button>
+            </form>
+            <p class="toggle-form" id="toggleText">Already have an account? <a href="#" id="toggleLogin">Login here</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 EduPortal. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="courses.xsd">
+    <course id="c1">
+        <title>Web Programming</title>
+        <instructor>Dr. Smith</instructor>
+        <price currency="USD">199</price>
+        <rating>5</rating>
+        <duration>5 Weeks</duration>
+        <description>Master the fundamentals of modern web development using HTML5, CSS3, and JavaScript.</description>
+    </course>
+    <course id="c2">
+        <title>Data Science Bootcamp</title>
+        <instructor>Prof. Johnson</instructor>
+        <price currency="USD">299</price>
+        <rating>4</rating>
+        <duration>8 Weeks</duration>
+        <description>Learn data analysis, visualization, and basic machine learning techniques with Python.</description>
+    </course>
+    <course id="c3">
+        <title>Machine Learning A-Z</title>
+        <instructor>Dr. Williams</instructor>
+        <price currency="USD">349</price>
+        <rating>5</rating>
+        <duration>12 Weeks</duration>
+        <description>Deep dive into machine learning algorithms, deep learning, and AI concepts.</description>
+    </course>
+</courses>
